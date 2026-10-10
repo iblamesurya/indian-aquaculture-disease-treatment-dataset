@@ -1,4 +1,4 @@
-# Indian Aquaculture Pathology & Biological Treatment Benchmark Dataset (2026)
+﻿# Indian Aquaculture Pathology & Biological Treatment Benchmark Dataset (2026)
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Dataset: JSON & CSV](https://img.shields.io/badge/Formats-JSON_|_CSV-blue.svg)](#)
@@ -15,23 +15,26 @@ Curated from multi-season field trials conducted across brackish-water and fresh
 
 | File | Description | Records |
 | :--- | :--- | :--- |
-| [`shrimp_pathology_treatments.json`](./shrimp_pathology_treatments.json) | Comprehensive clinical profiles, etiology, diagnostic markers, banned drugs, and biological protocols. | 9 Pathologies |
-| [`shrimp_pathology_treatments.csv`](./shrimp_pathology_treatments.csv) | Machine-readable tabular format optimized for tabular RAG and data science pipelines. | 9 Records |
+| [`shrimp_pathology_treatments.json`](./shrimp_pathology_treatments.json) | Comprehensive clinical profiles, etiology, diagnostic markers, banned drugs, and biological protocols. | 12 Pathologies |
+| [`shrimp_pathology_treatments.csv`](./shrimp_pathology_treatments.csv) | Machine-readable tabular format optimized for tabular RAG and data science pipelines. | 12 Records |
 | [`probiotic_strain_potency_index.json`](./probiotic_strain_potency_index.json) | Therapeutic microbial strains, CFU potencies, temperature/salinity tolerance, and commercial formulations. | 4 Strain Consortia |
 
 ---
 
-## 🦠 Pathologies Covered
+## 🦠 Pathologies & Clinical Monographs Covered
 
-1. **White Gut Syndrome & White Feces Syndrome (WGS/WFS)** — *EHP Microsporidian & Vibrio parahaemolyticus*
-2. **Toxic Ammonia Nitrogen (TAN) & Nitrite (NO2-) Spikes** — Autotrophic nitrification collapse
-3. **Luminescent Vibriosis & Red Disease** — *Vibrio harveyi & Vibrio alginolyticus*
-4. **Benthic Sludge & Hydrogen Sulfide (H2S) Black Mud** — Anaerobic *Desulfovibrio* activity
-5. **Soft Shell Syndrome & Molting Muscle Cramps** — Ionic Ca:Mg deficiency and low alkalinity
-6. **Running Mortality Syndrome (RMS)** — Polymicrobial feed sludge stress complex
-7. **Black Gill Disease & Branchial Melanization** — *Fusarium solani* and organic silt deposition
-8. **White Muscle Disease & Muscle Necrosis (IMN)** — Ischemic hypoxia, thermal shock, and K/Mg deficit
-9. **Cyanobacteria (Blue-Green Algae) & Microcystin Poisoning** — *Microcystis* & *Oscillatoria* blooms under low N:P ratios
+1. **[EHP Microsporidian Spore Suppression (AP-EHP-02)](https://aqua-pathology-guide.pages.dev/pathologies/ehp-microsporidian-treatment.html)** — *Enterocytozoon hepatopenaei* spore mechanics, chitin degradation, and qPCR threshold diagnostics.
+2. **[White Gut & White Feces Syndrome (AP-WFS-01)](https://aqua-pathology-guide.pages.dev/pathologies/white-gut.html)** — *EHP Microsporidian & Vibrio parahaemolyticus* synergistic enteric breakdown.
+3. **[Toxic Ammonia Nitrogen (TAN) & Nitrite Spikes (AP-TAN-02)](https://aqua-pathology-guide.pages.dev/pathologies/ammonia-nitrite.html)** — Autotrophic *Nitrosomonas* and *Nitrobacter* nitrification recovery.
+4. **[Luminescent Vibriosis & Red Disease (AP-VIB-03)](https://aqua-pathology-guide.pages.dev/pathologies/vibriosis-ems.html)** — *Vibrio harveyi* quorum sensing and subtilosin bacteriocin exclusion.
+5. **[Benthic Sludge & Hydrogen Sulfide (AP-SLU-04)](https://aqua-pathology-guide.pages.dev/pathologies/benthic-sludge-h2s.html)** — Anaerobic *Desulfovibrio* black mud oxidation and bio-dredging.
+6. **[Soft Shell & Boyd Ionic Mineral Ratios (AP-MIN-05)](https://aqua-pathology-guide.pages.dev/pathologies/molting-cramps-soft-shell.html)** — Interactive Dr. Claude Boyd Ca:Mg:K ratio calculator, seawater proportionality, and chelation.
+7. **[Running Mortality Syndrome (AP-RMS-06)](https://aqua-pathology-guide.pages.dev/pathologies/running-mortality-syndrome.html)** — Polymicrobial feed sludge stress complex (DOC 45–75).
+8. **[Black Gill Disease & Branchial Melanization (AP-BGD-07)](https://aqua-pathology-guide.pages.dev/pathologies/black-gill-syndrome.html)** — *Fusarium solani* and organic silt branchial clearance.
+9. **[White Muscle Disease & Muscle Necrosis (AP-WMD-08)](https://aqua-pathology-guide.pages.dev/pathologies/white-muscle-disease.html)** — Ischemic hypoxia, thermal shock, and ionic deficit reversal.
+10. **[Cyanobacteria & Microcystin Poisoning (AP-BGA-09)](https://aqua-pathology-guide.pages.dev/pathologies/cyanobacteria-blue-green-algae.html)** — Microcystin suppression under low N:P ratios.
+11. **[Luminescent Vibrio & Green TCBS Agar Colonies (AP-VIB-10)](https://aqua-pathology-guide.pages.dev/pathologies/luminescent-vibrio-green-colony.html)** — Virulent sucrose-negative *Vibrio parahaemolyticus* suppressive biosecurity.
+12. **[Zoothamnium & Protozoan Gill Fouling (AP-ZOO-11)](https://aqua-pathology-guide.pages.dev/pathologies/black-gill-zoothamnium-infestation.html)** — *Zoothamnium penaei* stalked ciliate detachment.
 
 ---
 
