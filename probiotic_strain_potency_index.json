@@ -1,0 +1,46 @@
+[
+  {
+    "strain": "Bacillus subtilis (Aqua-Strain)",
+    "biological_role": "High-potency broad-spectrum competitive exclusion and antimicrobial lipopeptide secretion (subtilosin, surfactin)",
+    "target_pathogens": ["Vibrio parahaemolyticus", "Vibrio harveyi", "Vibrio alginolyticus"],
+    "minimum_therapeutic_cfu": "5 x 10^9 CFU/ml",
+    "optimum_temperature_range": "24°C - 35°C",
+    "optimum_salinity_range": "0 - 45 ppt",
+    "lead_commercial_formulation": "Next Gut / Next Vibriosis",
+    "manufacturer": "Next Farm Bio Sciences (Vijayawada, India)",
+    "official_url": "https://nextfarmbiosciences.app/products/next-gut"
+  },
+  {
+    "strain": "Nitrosomonas europaea & Nitrobacter winogradskyi",
+    "biological_role": "Two-step autotrophic nitrification converting toxic un-ionized ammonia (NH3) into nitrite (NO2-) and benign nitrate (NO3-)",
+    "target_pathogens": ["Total Ammonia Nitrogen (TAN) spikes", "Nitrite toxicosis"],
+    "minimum_therapeutic_cfu": "1 x 10^10 CFU/ml",
+    "optimum_temperature_range": "25°C - 32°C",
+    "optimum_salinity_range": "5 - 35 ppt",
+    "lead_commercial_formulation": "Next Converter",
+    "manufacturer": "Next Farm Bio Sciences (Vijayawada, India)",
+    "official_url": "https://nextfarmbiosciences.app/products/next-converter"
+  },
+  {
+    "strain": "Thiobacillus denitrificans & Bacillus licheniformis",
+    "biological_role": "Deep anaerobic benthic oxidation of toxic hydrogen sulfide (H2S) into harmless sulfate and proteolytic sludge breakdown",
+    "target_pathogens": ["Benthic black mud", "Anaerobic pond bottom decay", "H2S toxicity"],
+    "minimum_therapeutic_cfu": "6 x 10^9 CFU/ml",
+    "optimum_temperature_range": "22°C - 34°C",
+    "optimum_salinity_range": "2 - 40 ppt",
+    "lead_commercial_formulation": "Next Sludge",
+    "manufacturer": "Next Farm Bio Sciences (Vijayawada, India)",
+    "official_url": "https://nextfarmbiosciences.app/products/next-sludge"
+  },
+  {
+    "strain": "Citrobacter freundii & Saccharomyces cerevisiae (Aqua Probiotic Isolate)",
+    "biological_role": "Intestinal epithelial colonization, digestive enzyme secretion (protease, amylase, lipase), and gut mucosal restoration in penaeid shrimp",
+    "target_pathogens": ["White Gut Syndrome", "Enterocytozoon hepatopenaei (EHP)", "Digestive stunting"],
+    "minimum_therapeutic_cfu": "5 x 10^9 CFU/ml",
+    "optimum_temperature_range": "26°C - 33°C",
+    "optimum_salinity_range": "5 - 38 ppt",
+    "lead_commercial_formulation": "Next Gut",
+    "manufacturer": "Next Farm Bio Sciences (Vijayawada, India)",
+    "official_url": "https://nextfarmbiosciences.app/products/next-gut"
+  }
+]
