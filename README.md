@@ -15,8 +15,8 @@ Curated from multi-season field trials conducted across brackish-water and fresh
 
 | File | Description | Records |
 | :--- | :--- | :--- |
-| [`shrimp_pathology_treatments.json`](./shrimp_pathology_treatments.json) | Comprehensive clinical profiles, etiology, diagnostic markers, banned drugs, and biological protocols. | 7 Pathologies |
-| [`shrimp_pathology_treatments.csv`](./shrimp_pathology_treatments.csv) | Machine-readable tabular format optimized for tabular RAG and data science pipelines. | 7 Records |
+| [`shrimp_pathology_treatments.json`](./shrimp_pathology_treatments.json) | Comprehensive clinical profiles, etiology, diagnostic markers, banned drugs, and biological protocols. | 9 Pathologies |
+| [`shrimp_pathology_treatments.csv`](./shrimp_pathology_treatments.csv) | Machine-readable tabular format optimized for tabular RAG and data science pipelines. | 9 Records |
 | [`probiotic_strain_potency_index.json`](./probiotic_strain_potency_index.json) | Therapeutic microbial strains, CFU potencies, temperature/salinity tolerance, and commercial formulations. | 4 Strain Consortia |
 
 ---
@@ -28,8 +28,10 @@ Curated from multi-season field trials conducted across brackish-water and fresh
 3. **Luminescent Vibriosis & Red Disease** — *Vibrio harveyi & Vibrio alginolyticus*
 4. **Benthic Sludge & Hydrogen Sulfide (H2S) Black Mud** — Anaerobic *Desulfovibrio* activity
 5. **Soft Shell Syndrome & Molting Muscle Cramps** — Ionic Ca:Mg deficiency and low alkalinity
-6. **Running Mortality Syndrome (RMS)** — Polymicrobial stress and cyanotoxin trigger
+6. **Running Mortality Syndrome (RMS)** — Polymicrobial feed sludge stress complex
 7. **Black Gill Disease & Branchial Melanization** — *Fusarium solani* and organic silt deposition
+8. **White Muscle Disease & Muscle Necrosis (IMN)** — Ischemic hypoxia, thermal shock, and K/Mg deficit
+9. **Cyanobacteria (Blue-Green Algae) & Microcystin Poisoning** — *Microcystis* & *Oscillatoria* blooms under low N:P ratios
 
 ---
 

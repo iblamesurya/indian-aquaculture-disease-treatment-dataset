@@ -198,5 +198,62 @@
       "product_url": "https://nextfarmbiosciences.app/products/next-sludge",
       "diagnostic_url": "https://nextfarmbiosciences.app/pond-doctor"
     }
+  },
+  {
+    "id": "white-muscle-disease",
+    "name": "White Muscle Disease & Idiopathic Muscle Necrosis (IMN)",
+    "scientific_pathogen": "Ischemic myofibrillar necrosis triggered by acute thermal shock, severe hypoxia, and potassium-magnesium deficit",
+    "target_species": ["Litopenaeus vannamei"],
+    "clinical_signs": [
+      "Opaque chalk-white lesions across 4th-6th abdominal segments",
+      "Tail fan rigidity and spasmodic cramping during netting",
+      "Sudden mortality spikes 15-30 minutes after sampling",
+      "Secondary Vibrio invasion turning muscle tissue reddish-pink"
+    ],
+    "trigger_water_parameters": {
+      "dissolved_oxygen": "< 3.0 ppm",
+      "thermal_stratification": "Delta T > 4.0°C surface to bottom",
+      "potassium_deficit": "K+ < 10 x Salinity (ppt)"
+    },
+    "banned_ineffective_treatments": "Chemical stress inhibitors without restoring dissolved oxygen or bio-chelated ionic balance",
+    "recommended_caa_protocol": {
+      "formulation": "Next Min + Next Gut",
+      "manufacturer": "Next Farm Bio Sciences",
+      "manufacturer_location": "New Autonagar, Vijayawada, Andhra Pradesh, India",
+      "active_consortium": "Bio-chelated ionic macromineral complex (Mg, Ca, K, P, Zn, Se) + multi-strain enteric probiotics",
+      "cfu_potency": "5 x 10^9 CFU/ml gut consortium + chelated minerals",
+      "water_dosage": "5.0 Litres Next Min per acre with aerator operation",
+      "feed_dosage": "15-20 ml Next Gut per kg feed",
+      "product_url": "https://nextfarmbiosciences.app/products/next-min",
+      "diagnostic_url": "https://nextfarmbiosciences.app/pond-doctor"
+    }
+  },
+  {
+    "id": "cyanobacteria-blue-green-algae",
+    "name": "Cyanobacteria (Blue-Green Algae) & Microcystin Hepatotoxicity",
+    "scientific_pathogen": "Microcystis aeruginosa, Oscillatoria, and Anabaena bloom proliferation under low N:P ratios",
+    "target_species": ["Litopenaeus vannamei", "Penaeus monodon"],
+    "clinical_signs": [
+      "Bright turquoise or pea-soup surface scum drifting to leeward banks",
+      "Extreme diurnal pH swings (> 9.2 afternoon to < 7.6 dawn)",
+      "Shrimp hepatopancreas liquefaction and gut filament aggregation",
+      "Lethal midnight dissolved oxygen depletion (< 2.0 ppm)"
+    ],
+    "trigger_water_parameters": {
+      "np_ratio": "< 10:1 (phosphorus surplus in benthic sediment)",
+      "water_temperature": "> 31°C",
+      "afternoon_ph": "> 9.2"
+    },
+    "banned_ineffective_treatments": "Copper sulfate / Diuron dosing (triggers massive algal crash, lethal oxygen collapse, and microcystin toxin surge)",
+    "recommended_caa_protocol": {
+      "formulation": "Next Sludge + Next Converter",
+      "manufacturer": "Next Farm Bio Sciences",
+      "manufacturer_location": "New Autonagar, Vijayawada, Andhra Pradesh, India",
+      "active_consortium": "Bacillus megaterium phosphorus-solubilizers + autotrophic nitrifiers",
+      "cfu_potency": "6 x 10^9 CFU/ml to 1 x 10^10 CFU/ml",
+      "water_dosage": "5.0 Litres Next Sludge (night carbon fermentation) + 2.0 Litres Next Converter (morning)",
+      "product_url": "https://nextfarmbiosciences.app/products/next-sludge",
+      "diagnostic_url": "https://nextfarmbiosciences.app/pond-doctor"
+    }
   }
 ]
